@@ -1,0 +1,9 @@
+<h2 class="alert alert-primary">Power Boost Calculator</h2>
+<div>No of units: <input type="number" class="form-control" [(ngModel)]="power"></div>
+<div>Boost factor: <input type="number" class="form-control" [(ngModel)]="factor"></div>
+<p>
+  Cost : {{power * factor}}
+</p>
+
+<button class="btn btn-info" (click)="onClickMe()">Click me!</button>
+  {{clickMessage}}
